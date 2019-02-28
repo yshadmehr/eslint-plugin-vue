@@ -49,6 +49,9 @@ tester.run('comma-spacing', rule, {
         </template>`,
       options: [{ before: true, after: false }]
     },
+    `<template>
+      <div :[fn(a,b)]="val" />
+    </template>`,
     `<script>
     fn = (a,b) => {}
     </script>`,
