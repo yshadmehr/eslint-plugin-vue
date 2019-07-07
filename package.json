@@ -46,7 +46,7 @@
     "eslint": "^6.0.0"
   },
   "dependencies": {
-    "vue-eslint-parser": "^6.0.2"
+    "vue-eslint-parser": "https://github.com/yshadmehr/vue-eslint-parser.git"
   },
   "devDependencies": {
     "@types/node": "^4.2.16",
